@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <style>
+        body {
+            background-image: url('The-Lark.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        .container {
+            display: flex;
+            align-items: center;
+        }
+        .imagem {
+            width: 100px;
+            height: 100px;
+            margin-right: 20px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href ="skin.css">
+    <title>Yaelokre</title>
+</head>
+<body>
+    <header>
+        <div class = "container">
+            <h1>Yaelokre</h1>
+        </div>
+    </header>
+    <audio controls autoplay>
+    <source src="Yaelokre-_Harpy-Hare_-_-_Illustrated-Song__M4A_128K_.mp3" type="audio/mpeg">
+    </audio>
+    <main>
+        <section>
+            <div class = search-container>
+                <input type="text" placeholder="Digite sua busca" id = "campo-pesquisa">
+            <button onclick="buscar()">Buscar</button>
+            </div>
+        </section>
+        <section class="resultados-pesquisa" id="resultados-pesquisa">
+            <div class="container">
+        </div>
+        </section>
+    </main>
+    <footer>
+        <p>Yaelokre.Todos os direitos reservados por Keath Ósk Warbling </p>
+        <a href = "https://linktr.ee/yaelokre" target="_blank">Para mais conteudos, acesse a página: https://linktr.ee/yaelokre</a>
+    </footer>
+    <script src="Dados.js"></script>
+    <script src="App.js"></script>
+</body>
+</html>
